@@ -8,6 +8,13 @@ import { AboutComponent } from './about/about.component';
 import { HelpComponent } from './help/help.component';
 import { MenuComponent } from './menu/menu.component';
 import {HttpClientModule} from '@angular/common/http';
+import { UserlistComponent } from './user/userlist/userlist.component';
+import { BoolDisplayPipe } from './bool-display.pipe';
+import { SearchUserPipe } from './search-user.pipe';
+import { UserDetailComponent } from './user/user-detail/user-detail.component';
+import { UserCreateComponent } from './user/user-create/user-create.component';
+import { UserEditComponent } from './user/user-edit/user-edit.component';
+import { UserLoginComponent } from './user/user-login/user-login.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +22,14 @@ import {HttpClientModule} from '@angular/common/http';
     HomeComponent,
     AboutComponent,
     HelpComponent,
-    MenuComponent
+    MenuComponent,
+    UserlistComponent,
+    BoolDisplayPipe,
+    SearchUserPipe,
+    UserDetailComponent,
+    UserCreateComponent,
+    UserEditComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,
